@@ -8,8 +8,32 @@
 </head>
 <body>
 
-  <h1>Hello World</h1>
-  <button class="button">Click Me</button>
+  <!-- <h1>Hello World</h1>
+  <button class="button">Click Me</button> -->
 
+ <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="toggle-btn">
+        <span class="navbar-toggler-icon"></span>
+    </label>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2 class="sidebar-title">Dashboard</h2>
+            <button class="btn-close"></button>
+        </div>
+        <a href="#">Products</a>
+        <a href="#">Orders</a>
+        <a href="#">Users</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="content">
+        <h1>Welcome</h1>
+        <p>This is your dashboard content area.</p>
+    </div>
+
+  <script src="./dist/framework.js"></script>
 </body>
 </html>
